@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e23084d3ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="Sign-up" class="active-class">
+        <div class="heading">
+          <h1 id="form-title">Sign Up</h1>
+          <hr />
+        </div>
+        <div>
+          <form method="post" action="/submit" class="form">
+            <div id="username-group" class="form-group">
+              <i class="fa-solid fa-user fa-xl" style="color: #000000"></i>
+              <input id="username" type="text" placeholder="User Name" />
+            </div>
+            <div id="email-group" class="form-group">
+              <i class="fa-solid fa-envelope fa-xl" style="color: #000000"></i>
+              <input id="email" type="email" placeholder="Email Id" />
+            </div>
+            <div id="password-group" class="form-group">
+              <i class="fa-solid fa-lock fa-xl" style="color: #000000"></i>
+              <input id="password" type="password" placeholder="Password" />
+              <button type="button" class="show-pass" id="show-pass">
+                <i class="fa-solid fa-eye fa-lg" style="color: #000000"></i>
+              </button>
+            </div>
+            <div class="option-group">
+              <a id="forget-password" href="#">Forget Password</a>
+              <button type="button" class="account-option" id="have-account">
+                Already have an account
+              </button>
+              <button type="button" class="account-option" id="no-account">
+                Create an account
+              </button>
+            </div>
+            <div>
+              <p id="account-reply" class="account-reply"></p>
+              <div class="buttons">
+                <button type="submit" id="submit-btn">Sign Up</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

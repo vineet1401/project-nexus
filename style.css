@@ -1,0 +1,147 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.332) 0%,
+      rgba(9, 9, 9, 0.589) 57%
+    ),
+    url("background.jpg");
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.207);
+  box-shadow: 0px 0px 30px rgb(255, 255, 255);
+  border-radius: 10px;
+  height: 450px;
+  width: 300px;
+  /* max-width: 300px; */
+  min-width: 300px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+hr {
+  width: 40px;
+  margin: 0px auto 20px;
+  height: 3px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.form-group {
+  padding: 5px;
+  background-color: rgb(224, 224, 224);
+  width: 250px;
+  margin: 0px auto 20px auto;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  height: 40px;
+  transition: height 1s ease;
+}
+
+a{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(252, 252, 252);
+  padding: 0px;
+  width: 250px;
+  text-align: start;
+  margin: 0px auto 10px auto;
+  font-weight: 900;
+  font-size: 15px;
+  font-style: italic;
+  display: block;
+}
+
+.account-option{
+    cursor: pointer;
+    text-align: start;
+    display: block;
+    padding: 0px;
+    width: 250px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0px auto 10px auto;
+    border: none;
+    background-color: transparent;
+    color: rgb(252, 252, 252);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+  
+}
+
+.form-group i {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.form-group input {
+  background: none;
+  width: 185px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.show-pass,
+.show-pass i {
+  border: none;
+  background-color: rgb(224, 224, 224);
+  width: 25px;
+  margin: 0px;
+}
+
+.buttons {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+
+.buttons button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 100px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(253, 253, 253, 0.741);
+  transition: 0.4s;
+}
+
+.buttons button:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+
+#no-account{
+    display: none;
+}
+#forget-password{
+    display: none;
+}
+
+.account-reply{
+    text-align: center;
+    color: white;
+    display: none;
+}
