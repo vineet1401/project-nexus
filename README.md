@@ -56,8 +56,8 @@ Make sure you have the following installed:
 
 # Technology Stack
 
-#### HTML: Structure of the web pages.
-#### CSS: Styling for an attractive user interface.
-#### JavaScript: Client-side functionality.
-#### Node.js: Server-side runtime environment.
-#### MongoDB: NoSQL database for storing user data.
+- HTML: Structure of the web pages.
+- CSS: Styling for an attractive user interface.
+- JavaScript: Client-side functionality.
+- Node.js: Server-side runtime environment.
+- MongoDB: NoSQL database for storing user data.
